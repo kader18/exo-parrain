@@ -1,1 +1,12 @@
 
+package main
+
+import "fmt"
+
+func main() {
+
+	j := 2701
+	p := &j
+	*p = *p / 37
+	fmt.Println(*p)
+}
